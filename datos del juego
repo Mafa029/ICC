@@ -1,0 +1,13 @@
+print("Ingresen sus nombres: ")
+j1=input()
+j2=input()
+
+jugada1= jugada(j1)
+jugada2= jugada(j2)
+
+if(jugada2>jugada1):
+    print("El ganador es: ",j2)
+elif (jugada2<jugada1):
+    print("El ganador es: ",j1)
+else:
+    print("Empate")
